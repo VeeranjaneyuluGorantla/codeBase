@@ -1,0 +1,6 @@
+9533193214,valid,9966,valid
+95331932,invalid,9966,valid
+9533193215,invalid,9966,valid
+9533193214,valid,,invalid
+9533193214,valid,hsc,invalid
+,invalid,9966,valid

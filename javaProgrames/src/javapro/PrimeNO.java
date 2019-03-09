@@ -1,0 +1,28 @@
+package javapro;
+
+import java.util.Scanner;
+
+public class PrimeNO {
+
+    public static void main(String args[]) 
+    { 
+         int num,c; 
+         Scanner s=new Scanner(System.in); 
+         System.out.println("Enter A Number"); 
+         num =s.nextInt(); 
+         //b=1; 
+         c=0; 
+          //while(b<= num)
+         for(int i=1;i<=num;i++)
+             { 
+                 if((num%i)==0) 
+                    c=c+1; 
+                    //b++; 
+             } 
+              if(c==2) 
+              System.out.println(num +" is a prime number"); 
+              else 
+              System.out.println(num +" is not a prime number"); 
+    }
+
+}
